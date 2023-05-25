@@ -1,17 +1,20 @@
 * { margin: 0;}
 body {
-    background-color: #1b1c1f;
+    background-color: #ebecee;
 }
 .navigation 
 {
-    background-color: #323335;
+    background-color: #e3e5e9;
     justify-content: center;
     width: 416px;
     border-radius: 24px;
 }
 @media (max-width:991px) {
  .menu-bg {
-    background-color: #323335;   
+    background-color: #000000;   
+ }
+ .btn-purple{
+    display: block;
  }
  
     .menu-btm {
@@ -21,4 +24,108 @@ body {
     .nav-link:nth-child(2) {
         margin: 0 !important;
             }
+}
+.hero-title {
+    font-size: 64px;
+}
+.hero-desk {
+    font-size: 24px;
+}
+.btn-purple{
+background-color: rgb(255, 238, 0);
+padding-left: 16px;
+padding-right: 16px;
+padding-bottom: 25px;
+padding-top: 25px;
+transition: 0.2s;
+}
+.btn-purple:hover {
+    background-color: rgb(117, 54, 148);
+}
+@media (max-width:1200px) 
+{.btn-purple{
+    display: block;
+ }
+.card-games{
+    margin-top: 16px;
+}
+ 
+.hero-title {font-size: 48px;
+    
+
+}
+.hero-desk{
+    font-size: 20px;
+}
+}
+.gta {
+ display: flex;
+ justify-content: center;   
+ align-items:flex-end;
+ flex:1.5;
+ height: 330px;
+ background-color: rgb(190, 6, 104);
+ border-radius: 56px;
+ transition: 0.2s;
+ margin-right: 16px;
+ 
+
+}
+.gta:hover{
+    background-color: rgb(133, 5, 73);
+}
+.fortnite {
+    display: flex;
+    justify-content: center;   
+    align-items:flex-end;
+    flex:1;
+    height: 330px;
+    background-color: rgb(49, 190, 6);
+    border-radius: 56px;
+    transition: 0.2s;
+       
+   
+   }
+   .fortnite:hover{
+       background-color: rgb(3, 145, 114);
+   }
+   .dota{
+    display: flex;
+    justify-content: center;   
+    align-items:flex-end;
+    width: 100%;
+    height: 330px;
+    background-color: rgb(108, 116, 0);
+    border-radius: 56px;
+    transition: 0.2s;
+    margin-top: 16px;
+       
+   
+   }
+   .dota:hover{
+       background-color: rgb(92, 67, 0);
+   }
+   
+@media(max-width:420px){
+.first-row{flex-direction: column;
+ 
+}
+.gta {
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+.hero-title{
+ font-size: 38px;    
+}   
+.footer-content {
+    flex-direction: column;
+    align-items: center;
+}
+.vk {
+    margin:0;
+}
+}
+.vk {
+    margin-left: 24px;
+    margin-right: 24px;
 }
