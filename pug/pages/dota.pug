@@ -11,5 +11,46 @@ block content
                             h1.hero-title.text-black.m-0 dota 2
                             p.hero-desk.text-black.my-5 Dota 2 — компьютерная многопользовательская командная игра жанра стратегия в реальном времени с элементами компьютерной ролевой игры, реализация известной карты DotA для игры Warcraft III в отдельном клиенте.
                             p.hero-desk.text-black В игре участвуют две команды по пять человек. Одна команда играет за светлую сторону, другая — за тёмную. Каждый игрок управляет одним героем, каждый из которых обладает особыми навыками и умениями.
-                            
+    main 
+        section.gallery.pt-5               
+            .container 
+                h1.gallerititle Галерея         
+                .swiper.mySwiper 
+                    .swiper-wrapper 
+                        .swiper-slide 
+                            img(src="/pic/slider/dota-slide-1.png", alt="")
+                        .swiper-slide 
+                            img(src="/pic/slider/dota-slide-2.png", alt="")
+                    .swiper-button-next 
+                    .swiper-button-prev
+                    .swiper-button-next    
+        section.articls.py-5 
+            .container 
+                h1.gallerytitle Статьи
+                .row 
+                    .col-md-4 
+                        .card   
+                            .card-body 
+                                img.card-img-top.mb-4(src="pic/articles/dota-article-1.png", alt="")
+                                h5.card-title Рецензия на Dota:
+                                    br
+                                    | dragonʼs Blood.
+                                p.card-text Каким получился мультсериал по Dota 2 от авторов «Легенды о Корре»
+                                a.btn.btn-primary(href="#") читать
+                    .col-md-4 
+                        .card   
+                            .card-body 
+                                img.card-img-top.mb-4(src="pic/articles/dota-article-2.png", alt="")
+                                h5.card-title Valve снизила стоимость подписки Dota Plus
+                                p.card-text Valve снизила стоимость подписки Dota Plus для россиян почти в два раза
+                                a.btn.btn-primary(href="#") читать    
+                    .col-md-4 
+                        .card   
+                            .card-body 
+                                img.card-img-top.mb-4(src="pic/articles/dota-article-3.png", alt="")
+                                h5.card-title В Steam был
+                                    br 
+                                    | зафиксирован рекорд
+                                p.card-text В Steam был зафиксирован рекорд по одновременному количеству игроков
+                                a.btn.btn-primary(href="#") читать                    
 
